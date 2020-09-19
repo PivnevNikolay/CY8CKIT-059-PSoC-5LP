@@ -1,5 +1,56 @@
-// 06.09.2020
-
+/* 06.09.2020
+----------------------------
+Configure timer_clock = 8MHz
+----------------------------
+Configure Pin_1 -->
+Digital input
+HW connection
+Drive mode --> Resistive pull down
+Initial drive state --> LOW(0)
+значения Input без изменений 
+----------------------------
+Configure Pin_2 -->
+Digital input
+HW connection
+Drive mode --> Resistive pull down
+Initial drive state --> LOW(0)
+значения Input без изменений 
+----------------------------
+Configure Status_Pin -->
+Digital output
+Strong drive 
+Initial drive state --> High(1)
+значения Output без изменений 
+----------------------------
+Configure Pin_LED -->
+Digital output
+Strong drive 
+Initial drive state --> High(1)
+значения Output без изменений 
+----------------------------
+Configure Status_Reg -->
+Inputs 1
+Bit 0
+Mode Transparent
+----------------------------
+Configure Control_Reg -->
+Outputs 1
+Bit 0
+Mode Direct
+Initial value 0
+----------------------------
+Configure Timer -->
+Resolution 32 bit
+Implementation UDB
+Period 4000000 Period 500 ms
+Trigger mode: None
+Capture Mode: None
+Enable mode: Software only 
+Run Mode: One Shot(Halt On Interrupt)
+Interrupts: On TC 
+----------------------------
++ isr_1 interrupt Timer 
+*/
 #include "project.h"
 uint8_t Count = 0;
 //***********обработчик_прерывания*******************//
