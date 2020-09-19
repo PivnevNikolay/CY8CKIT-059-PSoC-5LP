@@ -4,6 +4,11 @@
 
 [PSOC 5LP unpacking(распаковка)](https://false.ekta.is/2015/08/cypress-cy8ckit-059-psoc-5lp-proto-kit-first-impressions/)  
 
+![alt-текст](https://github.com/PivnevNikolay/CY8CKIT-059-PSoC-5LP/blob/master/FOTO/001.jpg)  
+
+![alt-текст](https://github.com/PivnevNikolay/CY8CKIT-059-PSoC-5LP/blob/master/FOTO/002.jpg)  
+  
+
  
 
 
